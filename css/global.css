@@ -1,56 +1,113 @@
 *{
-    background-color: #F5F5F5;
-    font-family: 'Montserrat', sans-serif;
+    background-color: #eff5dcfd;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0;
     margin: 0;
 }
 .contenedor{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-auto-rows: 200px;
-
+    width: 90%;
+    height: 80vh;
+    margin: 5%;
 }
 
 .contenedor_div{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-auto-rows: 200px;
-}
-.div__p{
-    float: left;
-    width: 40%;
-    padding: 5%;
-    padding-top: 10%;
-}
-
-.div__p-saludo{
-    font-size: 25px;
-    margin: 0;
-    font-weight: bold;
-    color: #007bce;
-}
-.div__p-intro{
-    font-size: 50px;
-    margin: 0;
-    font-weight: bold;
-}
-.div__p-intro2{
-    font-size: 50px;
-    margin: 0;
-    font-weight: bold;
-}
-.div__p-exp{
-    font-size: 15px;
-    margin: 0;
-}
-.div__img{
     width: 50%;
     float: left;
+}
+
+.div__img{
+    width: 50%;
+    float:left;
 }
 .div__img-style{
     width: 70%;
     border-radius: 50%;
     margin-left: 20%;
+}
+
+.div_skills{
+    width: 90%;
+    height: 80vh;
+    margin: 5%;
+}
+.div_skills_hijo{
+    width: 25%;
+    padding-top: 5%;
+    height: 70vh;
+    background-color: #95D1CC;
+    float: left;
+}
+.div_skills_hijo__2{
+    width: 50%;
+    height: 60vh;
+    margin-left: 50%;
+    padding-top: 10%;
+}
+.div_skills_img{
+    border-radius: 50%;
+    margin-left: 45%;
+    
+}
+.p_skills{
+    font-size: 60px;
+    font-weight: bold;
+    color: #1a1919;
+}
+.p_skills_hijo{
+    margin-top: 5%;
+    font-size: 25px;
+    color: #3d3d3d;
+    font-weight: lighter;
+}
+.imgIcon{
+    width: 10%;
+    margin: 3%;
+}
+
+.div__p{
+    padding: 5%;
+    padding-top: 30%;
+}
+
+.div__p-saludo{
+    font-size: 60px;
+    font-weight: bold;
+    color: #22577E;
+    position: relative;
+}
+.div__p-saludo_ani{
+    position: absolute;
+    right: 0%;
+    border-left: 3px solid black;
+    width: 0%;
+    margin-right: 37%;
+    animation: maquina 5s infinite alternate steps(16);
+}
+
+.div_study{
+    width: 90%;
+    height: 80vh;
+    margin: 5%;
+}
+@keyframes maquina{
+    from {
+        width: 63%;
+    }
+    to{
+        width: 0;
+    }
+}
+.div__p-intro{
+    font-size: 40px;
+    font-weight: bold;
+}
+.div__p-intro2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.div__p-exp{
+    font-size: 15px;
+    margin: 0;
 }
 
 @media screen and (max-width: 400px) {
