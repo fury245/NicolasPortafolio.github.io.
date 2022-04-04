@@ -1,11 +1,12 @@
-*{
+* {
     background-color: #eff5dcfd;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
 }
-header{
+
+header {
     width: 100%;
     height: 50px;
     background-color: #22577E;
@@ -14,30 +15,35 @@ header{
     text-align: center;
     top: 0%;
 }
-header div{
+
+header div {
     background-color: #22577E;
 }
-#btn-menu{
+
+#btn-menu {
     display: none;
 }
-.header_label{
+
+.header_label {
     display: none;
     width: 30px;
     height: 30px;
     padding: 10px;
     border-right: 1px solid white;
 }
-.header_label:hover{
+
+.header_label:hover {
     cursor: pointer;
     background-color: #5584AC;
 }
-.header_label_img{
+
+.header_label_img {
     width: 100%;
     margin-right: 80%;
     background-color: #22577E;
 }
 
-.div_home ul{
+.div_home ul {
     background-color: #22577E;
     margin: 0;
     list-style: none;
@@ -45,44 +51,49 @@ header div{
     padding: 0;
     justify-content: center;
 }
-.div_home li a{
+
+.div_home li a {
     text-decoration: none;
     background-color: #22577E;
     color: white;
     padding: 15px 40px;
     display: block;
 }
-.div_home li a:hover{
+
+.div_home li a:hover {
     background-color: #5584AC;
 }
-.contenedor{
+
+.contenedor {
     width: 90%;
     height: 80vh;
     margin: 5%;
 }
 
-.contenedor_div{
+.contenedor_div {
     width: 50%;
     float: left;
 }
 
-.div__img{
+.div__img {
     margin-top: 5%;
     width: 50%;
-    float:left;
+    float: left;
 }
-.div__img-style{
+
+.div__img-style {
     width: 70%;
     border-radius: 50%;
     margin-left: 20%;
 }
 
-.div_skills{
+.div_skills {
     width: 90%;
     height: 80vh;
     margin: 5%;
 }
-.div_skills_hijo{
+
+.div_skills_hijo {
     width: 25%;
     padding-top: 5%;
     height: 70vh;
@@ -90,46 +101,52 @@ header div{
     float: left;
     margin-top: 5%;
 }
-.div_skills_hijo__2{
+
+.div_skills_hijo__2 {
     margin-top: 5%;
     width: 50%;
     height: 60vh;
     margin-left: 50%;
     padding-top: 10%;
 }
-.div_skills_img{
+
+.div_skills_img {
     border-radius: 50%;
     margin-left: 45%;
-    
+
 }
-.p_skills{
+
+.p_skills {
     font-size: 60px;
     font-weight: bold;
     color: #1a1919;
 }
-.p_skills_hijo{
+
+.p_skills_hijo {
     margin-top: 5%;
     font-size: 25px;
     color: #3d3d3d;
     font-weight: lighter;
 }
-.imgIcon{
+
+.imgIcon {
     width: 10%;
     margin: 3%;
 }
 
-.div__p{
+.div__p {
     margin: 5%;
     padding-top: 30%;
 }
 
-.div__p-saludo{
+.div__p-saludo {
     font-size: 60px;
     font-weight: bold;
     color: #22577E;
     position: relative;
 }
-.div__p-saludo_ani{
+
+.div__p-saludo_ani {
     position: absolute;
     right: 0%;
     border-left: 3px solid black;
@@ -138,13 +155,14 @@ header div{
     animation: maquina 5s infinite alternate steps(16);
 }
 
-.div_study{
+.div_study {
     width: 90%;
     height: 60vh;
     margin: 5%;
     text-align: center;
 }
-.div_study_ba{
+
+.div_study_ba {
     background-color: #5584AC;
     box-shadow: 10px 5px 5px rgb(178, 178, 178);
     width: 23%;
@@ -154,12 +172,14 @@ header div{
     margin: 5%;
     border-radius: 5%;
 }
-.div_study_ba:hover{
+
+.div_study_ba:hover {
     padding-top: 3%;
     border-top: 10px solid #22577E;
     box-shadow: 5px 5px 40px 5px rgb(109, 109, 109);
 }
-.div_study_se{
+
+.div_study_se {
     background-color: #5584AC;
     box-shadow: 10px 5px 5px rgb(178, 178, 178);
     width: 23%;
@@ -169,12 +189,14 @@ header div{
     margin: 5%;
     border-radius: 5%;
 }
-.div_study_se:hover{
+
+.div_study_se:hover {
     padding-top: 3%;
     border-top: 10px solid #22577E;
     box-shadow: 5px 5px 40px 5px rgb(109, 109, 109);
 }
-.div_study_ot{
+
+.div_study_ot {
     background-color: #5584AC;
     box-shadow: 10px 5px 5px rgb(178, 178, 178);
     border-radius: 5%;
@@ -184,143 +206,194 @@ header div{
     padding-top: 5%;
     margin: 5%;
 }
-.div_study_ot:hover{
+
+.div_study_ot:hover {
     padding-top: 3%;
     box-shadow: 5px 5px 40px 5px rgb(109, 109, 109);
     border-top: 10px solid #22577E;
 }
-.h2_study{
+
+.h2_study {
     background-color: #5584AC;
     color: white;
 }
-.p_study{
+
+.p_study {
     background-color: #5584AC;
     color: white;
     margin: 10%;
     text-align: justify
 }
-.p_study span{
+
+.p_study span {
     background-color: #5584AC;
 
     font-weight: bold;
 }
-@keyframes maquina{
+
+@keyframes maquina {
     from {
         width: 63%;
     }
-    to{
+
+    to {
         width: 0;
     }
 }
-.div__p-intro{
+
+.div__p-intro {
     font-size: 40px;
     font-weight: bold;
 }
-.div__p-intro2{
+
+.div__p-intro2 {
     font-size: 25px;
     font-weight: bold;
 }
-.div__p-exp{
+
+.div__p-exp {
     font-size: 15px;
     margin: 0;
 }
 
+@media (min-width: 1300px) {
+    .contenedor{
+        height: 750px;
+    }
+    .contenedor_div{
+        margin-top: 10%;
+    }
+    .div__img {
+        width: 50%;
+        margin-top: 15%;
+    }
+
+    .div_skills {
+        width: 90%;
+        height: 100vh;
+    }
+    .div_skills_img{
+        margin-left: 30%;
+    }
+    
+    .div_skills_hijo {
+        width: 15%;
+        padding-top: 15%;
+        margin-top: 8%;
+    }
+    
+    .div_skills_hijo__2 {
+        margin-left: 55%;
+        padding-top: 25%;
+    }
+}
+
 @media screen and (max-width: 400px) {
 
-    .header_label{
+    .header_label {
         display: block;
         background-color: #22577E;
     }
-    .div_home{
+
+    .div_home {
         position: absolute;
         width: 70%;
         margin-left: -70%;
     }
-    .div_home ul{
+
+    .div_home ul {
         flex-direction: column;
         transition: all 0.5s;
     }
-    .div_home ul li{
+
+    .div_home ul li {
         border-top: 1px solid white;
     }
 
-    #btn-menu:checked ~ .div_home{
+    #btn-menu:checked~.div_home {
         margin: 0;
     }
 
-    .div__p-saludo{
+    .div__p-saludo {
         font-size: 80px;
         margin: 0;
         position: static;
     }
-    .div__p-saludo_ani{
+
+    .div__p-saludo_ani {
         border: none;
     }
 
-    @keyframes maquina{
+    @keyframes maquina {
         from {
             width: 0%;
         }
-        to{
+
+        to {
             width: 0;
         }
     }
 
-    .contenedor_div{
+    .contenedor_div {
         width: 100%;
         float: none;
     }
-    .div__p{
+
+    .div__p {
         margin: 0%;
     }
-    .div__img{
+
+    .div__img {
         width: 100%;
-        float:none;
+        float: none;
         margin-top: 30%;
     }
-    .div__img-style{
+
+    .div__img-style {
         width: 100%;
         margin-left: auto;
     }
 
-    .div_skills{
+    .div_skills {
         padding-top: 50px;
         height: auto;
         margin-top: 80%;
     }
-    .div_skills_hijo{
+
+    .div_skills_hijo {
         width: 100%;
         padding-top: 0%;
         float: none;
         height: auto;
     }
-    .div_skills_hijo__2{
+
+    .div_skills_hijo__2 {
         margin-top: 5%;
         width: 100%;
         margin-left: auto;
         padding-top: 0%;
     }
 
-    .div_skills_img{
+    .div_skills_img {
         margin-left: 0;
         width: 100%;
     }
 
-    .div_study_ba{
+    .div_study_ba {
         width: 100%;
         margin: 0;
         height: 25vh;
         margin-top: 5%;
     }
-    
-    .div_study_se{
+
+    .div_study_se {
         width: 100%;
         margin: 0;
         height: 25vh;
         margin-top: 5%;
     }
-    
-    .div_study_ot{
+
+    .div_study_ot {
         width: 100%;
         height: 25vh;
         margin: 0;
