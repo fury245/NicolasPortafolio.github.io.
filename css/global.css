@@ -256,12 +256,26 @@ header div {
     margin: 0;
 }
 
-@media (min-width: 1300px) {
+@media (max-width: 1300px) {
     .contenedor{
         height: 750px;
     }
     .contenedor_div{
         margin-top: 10%;
+    }
+    .div__p-saludo_ani {
+        
+        margin-right: none;
+        
+    }
+    @keyframes maquina {
+        from {
+            width: 100%;
+        }
+    
+        to {
+            width: 0;
+        }
     }
     .div__img {
         width: 50%;
